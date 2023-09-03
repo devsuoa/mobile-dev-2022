@@ -1,4 +1,4 @@
-# Mobile Development Workshop 2022
+# Mobile Development Workshop 2023
 
 ## Prerequisities
 
