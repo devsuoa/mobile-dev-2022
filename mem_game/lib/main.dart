@@ -11,13 +11,6 @@ class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Flutter Demo',
-      home: HomeScreen(),
-    );
-  }
 }
 
 class HomeScreen extends StatefulWidget {
@@ -27,15 +20,4 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
-  Game game = Game();
-
-  int turns = 0;
-  int pairsFound = 0;
-
-  @override
-  void initState() {
-    super.initState();
-    game.initGame();
-  }
-}
+class _HomeScreenState extends State<HomeScreen> {}
